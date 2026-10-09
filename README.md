@@ -9,16 +9,16 @@ These applications will also be available as standalone iPhone applications, but
 
 | Application | iOS | iPod |
 | :---        |    :----:   |          ---: |
-| Books | - [ ] | - [ ] |
-| Calendar | - [ ] | - [ ] |
-| Classics | - [ ] | - [ ] |
-| Clock | - [ ] | - [ ] |
-| Files | - [ ] | - [ ] |
-| Music | - [ ] | - [ ] |
-| Notes | - [x] | - [ ] |
-| Photos | - [ ] | - [ ] |
-| Podcasts | - [ ] | - [ ] |
-| Radio | - [ ] | - [ ] |
-| Settings | - [ ] | - [ ] |
-| TV | - [ ] | - [ ] |
-| Voice Memos | - [ ] | - [ ] |
+| Books |  |  |
+| Calendar |  |  |
+| Classics |  |  |
+| Clock |  |  |
+| Files |  |  |
+| Music |  |  |
+| Notes | ✓ |  |
+| Photos |  |  |
+| Podcasts |  |  |
+| Radio |  |  |
+| Settings |  |  |
+| TV |  |  |
+| Voice Memos |  |  |
