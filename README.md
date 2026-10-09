@@ -1,5 +1,5 @@
 # SwiftUiPod
-A modernised iPod-style Operating System, built entirely in Swift.
+A modernised iPodOS-style application, built entirely in Swift.
 
 ## A Brief Description
 SwiftUiPod is a demonstration of the power of SwiftUI. The aim of this project is to build a modernised iPod simulator, with a functional Springboard and multiple applications within it.
@@ -9,16 +9,17 @@ These applications will also be available as standalone iPhone applications, but
 
 | Application | iOS | iPod |
 | :---        |    :----:   |          ---: |
-| Books |  |  |
-| Calendar |  |  |
-| Classics |  |  |
-| Clock |  |  |
-| Files |  |  |
-| Music |  |  |
-| Notes | ✓ |  |
-| Photos |  |  |
-| Podcasts |  |  |
-| Radio |  |  |
-| Settings |  |  |
-| TV |  |  |
-| Voice Memos |  |  |
+| Books | – | – |
+| Calendar | – | – |
+| Classics | – | – |
+| Clock | – | – |
+| Files | – | – |
+| Music | – | – |
+| Notes | v0.1 | v0 |
+| Photos | – | – |
+| Podcasts | – | – |
+| Radio | – | – |
+| Settings | – | – |
+| TV | – | – |
+| Voice Memos | – | – |
+
