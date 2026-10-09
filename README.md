@@ -6,17 +6,19 @@ SwiftUiPod is a demonstration of the power of SwiftUI. The aim of this project i
 These applications will also be available as standalone iPhone applications, but the aim of SwiftUiPod is to restrict touch input so that the simulated click wheel is the primary input, while the touchscreen frame is secondary, similar to how to Digital Crown operates on Apple Watch. 
 
 ### Applications
-- [x] Notes
-- [ ] Books
-- [ ] Calendar
-- [ ] Music
-- [ ] Classics
-- [ ] Clock
-- [ ] Files
-- [ ] Photos
-- [ ] Podcasts
-- [ ] Radio
-- [ ] Settings
-- [ ] TV
-- [ ] Voice Memos
-- [ ] Weather
+
+| Application | iOS | iPod |
+| :---        |    :----:   |          ---: |
+| Books | - [ ] | - [ ] |
+| Calendar | - [ ] | - [ ] |
+| Classics | - [ ] | - [ ] |
+| Clock | - [ ] | - [ ] |
+| Files | - [ ] | - [ ] |
+| Music | - [ ] | - [ ] |
+| Notes | - [x] | - [ ] |
+| Photos | - [ ] | - [ ] |
+| Podcasts | - [ ] | - [ ] |
+| Radio | - [ ] | - [ ] |
+| Settings | - [ ] | - [ ] |
+| TV | - [ ] | - [ ] |
+| Voice Memos | - [ ] | - [ ] |
