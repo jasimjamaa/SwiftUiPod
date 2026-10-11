@@ -29,9 +29,29 @@ The [iOS workflow](.github/workflows/ios.yml) builds the standalone **Notes** ap
 using the shared `Notes` scheme on GitHub's `macos-26` runner. By default, pull
 requests to `main`, pushes to `main`, tags matching `v*`, and manual runs produce
 an **unsigned IPA**, with no Apple account, certificate, or repository secrets
-required. Download `Notes-unsigned.ipa` from the workflow run's **Artifacts**
-section; artifacts are retained for 14 days. Signing is optional as described
-below. The workflow does not upload to App Store Connect.
+required. Download `Notes-unsigned.ipa` from the repository's **Releases** page
+under **Assets**. Signing is optional as described below. The workflow does not
+upload to App Store Connect.
+
+After each successful push to `main` (including a merged PR), CI publishes a
+development **prerelease**, tagged `build-<run number>-<run attempt>`. A successful
+build of a `v*` tag publishes a regular release for that version. Manual runs on
+`main` also publish a prerelease. Each release includes the IPA, its signing
+status, source commit, and a link to the build logs. Existing published assets
+are never replaced; rerunning an already published version tag fails at release
+creation rather than changing that version's download.
+
+Pull requests and manual runs on other branches only upload **Actions artifacts**,
+which are retained for 14 days. Release assets remain available independently of
+that retention period. IPA files are distributed as Release assets; the GitHub
+**Packages** section is for package registries and will remain empty.
+
+Publishing uses the workflow's built-in `GITHUB_TOKEN` with `contents: write`
+only in the release job; no additional secret is needed. If repository or
+organization policies restrict release creation, an administrator must allow
+that job's write permission. After merging this workflow update, its first
+successful `main` build will create the first release; older artifacts are not
+published retroactively.
 
 An unsigned IPA is a packaged device build for later signing; it cannot be
 installed directly on a normal iPhone or run in the iOS Simulator.
